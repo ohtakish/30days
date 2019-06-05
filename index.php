@@ -49,8 +49,18 @@
 <!-- primary -->
 <main id="primary">
 
+<?php
+//記事があればentriesブロック以下を表示
+if (have_posts() ) :
+    ?>
+
 <!-- entries -->
 <div class="entries">
+    <?php
+    //記事数ぶんループ
+    while ( have_posts() ) :
+        the_post();
+        ?>
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
@@ -71,188 +81,13 @@
         </div><!-- /entry-item-excerpt -->
     </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry2.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry3.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry4.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry5.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry6.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry7.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry8.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry9.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
-
-<!-- entry-item -->
-<a href="#" class="entry-item">
-    <!-- entry-item-img -->
-    <div class="entry-item-img">
-        <img src="<?php echo get_template_directory_uri() ?>/img/entry10.png" alt="">
-    </div><!-- /entry-item-img -->
-
-    <!-- entry-item-body -->
-    <div class="entry-item-body">
-        <div class="entry-item-meta">
-            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-        </div><!-- /entry-item-meta -->
-        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-        <div class="entry-item-excerpt">
-            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-        </div><!-- /entry-item-excerpt -->
-    </div><!-- /entry-item-body -->
-</a><!-- /entry-item -->
+        <?php
+    endwhile;
+    ?>
 
 </div><!-- /entries -->
+
+
 
 <!-- pagenation -->
 <div class="pagenation">
@@ -261,6 +96,10 @@
     <a class="page-numbers" href="#">3</a>
     <a class="next page-numbers" href="#"><i class="fas fa-angle-right"></i></a>
 </div><!-- /pagenation -->
+
+    <?php
+endif;
+?>
 
 </main><!-- /primary -->
 
