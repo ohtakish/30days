@@ -17,8 +17,7 @@
 <meta property="og:description" content="">
 <meta name="twitter:card" content="summary_large_image">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2">
-<link rel="stylesheet" href="./css/style.css">
+<?php wp_head(); ?>
 
 <link rel="icon" href="./img/icon-home.png">
 
@@ -35,19 +34,19 @@
 <!-- drawer -->
 <div class="drawer">
 <div class="drawer-icon">
-	<span class="drawer-open"><i class="fas fa-bars"></i></span><!-- /drawer-open -->
-	<span class="drawer-close"><i class="fas fa-times"></i></span><!-- drawer-close -->
+    <span class="drawer-open"><i class="fas fa-bars"></i></span><!-- /drawer-open -->
+    <span class="drawer-close"><i class="fas fa-times"></i></span><!-- drawer-close -->
 </div><!-- /drawer-icon -->
 
 <!-- drawer-content -->
 <div class="drawer-content">
 <nav class="drawer-nav">
 <ul class="drawer-list">
-	<li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
-	<li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
-	<li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
-	<li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
-	<li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
+    <li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
+    <li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
+    <li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
+    <li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
+    <li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
 </ul>
 </nav>
 </div><!-- /drawer-content -->
@@ -60,11 +59,11 @@
 <nav class="header-nav">
 <div class="inner">
 <ul class="header-list">
-	<li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
-	<li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
-	<li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
-	<li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
-	<li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
+    <li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
+    <li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
+    <li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
+    <li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
+    <li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
 </ul>
 </div><!-- /inner -->
 </nav><!-- header-nav -->
