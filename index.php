@@ -1,74 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja" prefix="og: http://ogp.me/ns#">
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="format-detection" content="telephone=no">
-
-<title>blog title</title>
-<meta name="description" content="">
-
-<meta property="og:title" content="blog title">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://example.com/">
-<meta property="og:image" content="https://example.com/img/ogp.png">
-<meta property="og:site_name" content="blog title">
-<meta property="og:description" content="">
-<meta name="twitter:card" content="summary_large_image">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2">
-<link rel="stylesheet" href="./css/style.css">
-
-<link rel="icon" href="./img/icon-home.png">
-
-</head>
-<body>
-
-<!-- header -->
-<header id="header">
-<div class="inner">
-
-<h1 class="header-logo"><a href="/">blog title</a></h1><!-- /header-logo -->
-<div class="header-sub">サブタイトルが入りますサブタイトルが入ります</div><!-- /header-sub -->
-
-<!-- drawer -->
-<div class="drawer">
-<div class="drawer-icon">
-	<span class="drawer-open"><i class="fas fa-bars"></i></span><!-- /drawer-open -->
-	<span class="drawer-close"><i class="fas fa-times"></i></span><!-- drawer-close -->
-</div><!-- /drawer-icon -->
-
-<!-- drawer-content -->
-<div class="drawer-content">
-<nav class="drawer-nav">
-<ul class="drawer-list">
-	<li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
-	<li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
-	<li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
-	<li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
-	<li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
-</ul>
-</nav>
-</div><!-- /drawer-content -->
-</div><!-- /drawer -->
-
-</div><!-- /inner -->
-</header><!-- /header -->
-
-<!-- header-nav -->
-<nav class="header-nav">
-<div class="inner">
-<ul class="header-list">
-	<li class="m_icon1 menu-item"><a href="#">メニュー1</a></li>
-	<li class="m_icon2 menu-item"><a href="#">メニュー2</a></li>
-	<li class="m_icon3 menu-item"><a href="#">メニュー3</a></li>
-	<li class="m_icon4 menu-item"><a href="#">メニュー4</a></li>
-	<li class="m_icon5 menu-item"><a href="#">メニュー5</a></li>
-</ul>
-</div><!-- /inner -->
-</nav><!-- header-nav -->
-
+<?php get_header(); ?>
 
 <!-- pickup -->
 <div id="pickup">
@@ -77,33 +7,33 @@
 <div class="pickup-items">
 
 <a href="#" class="pickup-item">
-	<div class="pickup-item-img">
-		<img src="img/pickup1.png" alt="">
-		<div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
-	</div><!-- /pickup-item-img -->
-	<div class="pickup-item-body">
-		<h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
-	</div><!-- /pickup-item-body -->
+    <div class="pickup-item-img">
+        <img src="img/pickup1.png" alt="">
+        <div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
+    </div><!-- /pickup-item-img -->
+    <div class="pickup-item-body">
+        <h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
+    </div><!-- /pickup-item-body -->
 </a><!-- /pickup-item -->
 
 <a href="#" class="pickup-item">
-	<div class="pickup-item-img">
-		<img src="img/pickup2.png" alt="">
-		<div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
-	</div><!-- /pickup-item-img -->
-	<div class="pickup-item-body">
-		<h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
-	</div><!-- /pickup-item-body -->
+    <div class="pickup-item-img">
+        <img src="img/pickup2.png" alt="">
+        <div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
+    </div><!-- /pickup-item-img -->
+    <div class="pickup-item-body">
+        <h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
+    </div><!-- /pickup-item-body -->
 </a><!-- /pickup-item -->
 
 <a href="#" class="pickup-item">
-	<div class="pickup-item-img">
-		<img src="img/pickup3.png" alt="">
-		<div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
-	</div><!-- /pickup-item-img -->
-	<div class="pickup-item-body">
-		<h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
-	</div><!-- /pickup-item-body -->
+    <div class="pickup-item-img">
+        <img src="img/pickup3.png" alt="">
+        <div class="pickup-item-tag">カテゴリ名</div><!-- /pickup-item-tag -->
+    </div><!-- /pickup-item-img -->
+    <div class="pickup-item-body">
+        <h2 class="pickup-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /pickup-item-title -->
+    </div><!-- /pickup-item-body -->
 </a><!-- /pickup-item -->
 
 </div><!-- /pickup-items -->
@@ -124,212 +54,212 @@
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry1.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry1.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry2.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry2.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry3.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry3.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry4.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry4.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry5.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry5.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry6.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry6.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry7.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry7.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry8.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry8.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry9.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry9.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 <!-- entry-item -->
 <a href="#" class="entry-item">
-	<!-- entry-item-img -->
-	<div class="entry-item-img">
-		<img src="img/entry10.png" alt="">
-	</div><!-- /entry-item-img -->
+    <!-- entry-item-img -->
+    <div class="entry-item-img">
+        <img src="img/entry10.png" alt="">
+    </div><!-- /entry-item-img -->
 
-	<!-- entry-item-body -->
-	<div class="entry-item-body">
-		<div class="entry-item-meta">
-			<div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
-			<time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
-		</div><!-- /entry-item-meta -->
-		<h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
-		<div class="entry-item-excerpt">
-			<p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
-		</div><!-- /entry-item-excerpt -->
-	</div><!-- /entry-item-body -->
+    <!-- entry-item-body -->
+    <div class="entry-item-body">
+        <div class="entry-item-meta">
+            <div class="entry-item-tag">カテゴリ名</div><!-- /entry-item-tag -->
+            <time class="entry-item-published" datetime="2019-01-01">2019/1/1</time><!-- /entry-item-published -->
+        </div><!-- /entry-item-meta -->
+        <h2 class="entry-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</h2><!-- /entry-item-title -->
+        <div class="entry-item-excerpt">
+            <p>文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入ります文章の一部が入…</p>
+        </div><!-- /entry-item-excerpt -->
+    </div><!-- /entry-item-body -->
 </a><!-- /entry-item -->
 
 </div><!-- /entries -->
 
 <!-- pagenation -->
 <div class="pagenation">
-	<span class="page-numbers current">1</span>
-	<a class="page-numbers" href="#">2</a>
-	<a class="page-numbers" href="#">3</a>
-	<a class="next page-numbers" href="#"><i class="fas fa-angle-right"></i></a>
+    <span class="page-numbers current">1</span>
+    <a class="page-numbers" href="#">2</a>
+    <a class="page-numbers" href="#">3</a>
+    <a class="next page-numbers" href="#"><i class="fas fa-angle-right"></i></a>
 </div><!-- /pagenation -->
 
 </main><!-- /primary -->
@@ -344,13 +274,13 @@
 <div class="wprofile">
 <div class="wprofile-img"><img src="./img/profile.png" alt=""></div>
 <div class="wprofile-content">
-	<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 </div>
 <!-- /wprofile-content -->
 <nav class="wprofile-sns">
-	<div class="wprofile-sns-item m_twitter"><a href="" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"></i></a></div>
-	<div class="wprofile-sns-item m_facebook"><a href="" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
-	<div class="wprofile-sns-item m_instagram"><a href="" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a></div>
+    <div class="wprofile-sns-item m_twitter"><a href="" rel="noopener noreferrer" target="_blank"><i class="fab fa-twitter"></i></a></div>
+    <div class="wprofile-sns-item m_facebook"><a href="" rel="noopener noreferrer" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+    <div class="wprofile-sns-item m_instagram"><a href="" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram"></i></a></div>
 </nav>
 </div><!-- /wprofile -->
 </div><!-- /widget -->
@@ -361,8 +291,8 @@
 <div class="widget-title">検索</div>
 <!-- search-form -->
 <form method="get" class="search-form" action="#">
-	<input type="search" class="search-field" value="" placeholder="キーワード" name="s" id="s">
-	<button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
+    <input type="search" class="search-field" value="" placeholder="キーワード" name="s" id="s">
+    <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
 </form><!-- /search-form -->
 </div><!-- /widget -->
 
@@ -375,42 +305,42 @@
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry2.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry2.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry1.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry1.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry3.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry3.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry4.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry4.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry5.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry5.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 </div><!-- /wpost-items -->
@@ -426,42 +356,42 @@
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry7.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry7.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry6.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry6.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry10.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry10.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry7.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry7.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 <!-- wpost-item -->
 <a class="wpost-item" href="#">
-	<div class="wpost-item-img"><img src="./img/entry9.png" alt=""></div>
-	<div class="wpost-item-body">
-		<div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
-	</div><!-- /wpost-item-body -->
+    <div class="wpost-item-img"><img src="./img/entry9.png" alt=""></div>
+    <div class="wpost-item-body">
+        <div class="wpost-item-title">記事のタイトルが入ります記事のタイトルが入ります記事のタイトルが入ります</div>
+    </div><!-- /wpost-item-body -->
 </a><!-- /wpost-item -->
 
 </div><!-- /wpost-items -->
@@ -470,9 +400,9 @@
 <div class="widget widget_archive">
 <div class="widget-title">アーカイブ</div>
 <ul>
-	<li><a href="#">テキストテキストテキスト</a></li>
-	<li><a href="#">テキストテキストテキスト</a></li>
-	<li><a href="#">テキストテキストテキスト</a></li>
+    <li><a href="#">テキストテキストテキスト</a></li>
+    <li><a href="#">テキストテキストテキスト</a></li>
+    <li><a href="#">テキストテキストテキスト</a></li>
 </ul>
 </div><!-- /widget -->
 
@@ -482,64 +412,4 @@
 </div><!-- /inner -->
 </div><!-- /content -->
 
-<!-- footer-menu -->
-<div id="footer-menu">
-<div class="inner">
-<div class="footer-logo"><a href="/">blog title</a></div><!-- /footer-logo -->
-<div class="footer-sub">サブタイトルが入りますサブタイトルが入ります</div><!-- /footer-sub -->
-
-<nav class="footer-nav">
-<ul class="footer-list">
-	<li class="menu-item"><a href="#">メニュー1</a></li>
-	<li class="menu-item"><a href="#">メニュー2</a></li>
-	<li class="menu-item"><a href="#">メニュー3</a></li>
-	<li class="menu-item"><a href="#">メニュー4</a></li>
-	<li class="menu-item"><a href="#">メニュー5</a></li>
-</ul>
-</nav>
-
-</div><!-- /inner -->
-</div><!-- /footer-menu -->
-
-
-
-<!-- footer -->
-<footer id="footer">
-<div class="inner">
-<div class="copy">&copy; daily-trial WordPress theme All rights reserved.</div><!-- /copy -->
-<div class="by">Presented by <a href="https://tokyofreelance.jp/" rel="noopener" target="_blank">東京フリーランス</a></div><!-- /by -->
-
-</div><!-- /inner -->
-</footer><!-- /footer -->
-
-
-
-<!-- footer-sns -->
-<div class="footer-sns">
-<div class="inner">
-<div class="footer-sns-head">この記事をシェアする</div><!-- /footer-sns-head -->
-
-<nav class="footer-sns-buttons">
-<ul>
-	<li><a class="m_twitter" href="https://twitter.com/share?url=https://example.com/&text=blog title" rel="nofollow" target="_blank"><img src="./img/icon-twitter.png" alt=""></a></li>
-	<li><a class="m_facebook" href="https://www.facebook.com/share.php?u=https://example.com/" rel="nofollow" target="_blank"><img src="./img/icon-facebook.png" alt=""></a></li>
-	<li><a class="m_hatena" href="https://b.hatena.ne.jp/add?mode=confirm&url=https://example.com/&title=blog title" rel="nofollow" target="_blank"><img src="./img/icon-hatena.png" alt=""></a></li>
-	<li><a class="m_line" href="https://social-plugins.line.me/lineit/share?url=https://example.com/" rel="nofollow" target="_blank"><img src="./img/icon-line.png" alt=""></a></li>
-	<li><a class="m_pocket" href="https://getpocket.com/edit?url=https://example.com/" rel="nofollow" target="_blank"><img src="./img/icon-pocket.png" alt=""></a></li>
-</ul>
-</nav><!-- /footer-sns-buttons -->
-
-</div><!-- /inner -->
-</div><!-- /footer-sns -->
-
-
-<div class="floating">
-	<a href="#"><i class="fas fa-chevron-up"></i></a>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="js/script.js"></script>
-
-</body>
-</html>
-
+<?php get_footer(); ?>
