@@ -626,23 +626,23 @@ select:focus {
 	margin-right: 8px;
 }
 
-.drawer-nav li.m_icon1 > a::before {
+.drawer-nav li:nth-child(1) > a::before {
 	content: "\f015";
 }
 
-.drawer-nav li.m_icon2 > a::before {
+.drawer-nav li:nth-child(2) > a::before {
 	content: "\f02d";
 }
 
-.drawer-nav li.m_icon3 > a::before {
+.drawer-nav li:nth-child(3) > a::before {
 	content: "\f0f4";
 }
 
-.drawer-nav li.m_icon4 > a::before {
+.drawer-nav li:nth-child(4) > a::before {
 	content: "\f109";
 }
 
-.drawer-nav li.m_icon5 > a::before {
+.drawer-nav li:nth-child(5) > a::before {
 	content: "\f0e0";
 }
 
@@ -2035,23 +2035,23 @@ select:focus {
 	margin-right: 8px;
 }
 
-.header-nav li.m_icon1 > a::before {
+.header-nav li:nth-child(1) > a::before {
 	content: "\f015";
 }
 
-.header-nav li.m_icon2 > a::before {
+.header-nav li:nth-child(2) > a::before {
 	content: "\f02d";
 }
 
-.header-nav li.m_icon3 > a::before {
+.header-nav li:nth-child(3) > a::before {
 	content: "\f0f4";
 }
 
-.header-nav li.m_icon4 > a::before {
+.header-nav li:nth-child(4) > a::before {
 	content: "\f109";
 }
 
-.header-nav li.m_icon5 > a::before {
+.header-nav li:nth-child(5) > a::before {
 	content: "\f0e0";
 }
 
