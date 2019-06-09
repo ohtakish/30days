@@ -56,7 +56,7 @@ if (have_posts() ) {
 ?>
 
 <!-- entries -->
-<div class="entries">
+<div class="entries m_horizontal">
     <?php
     //記事数ぶんループ
     while ( have_posts() ) :
