@@ -14,7 +14,7 @@
 
 
                 <div class="archive-head m_description">
-                    <div class="archive-lead">CATEGORY</div>
+                    <div class="archive-lead">ARCHIVE</div>
                     <h1 class="archive-title m_category"><?php the_archive_title(); ?></h1><!-- /archive-title -->
                     <div class="archive-description">
                         <p><?php the_archive_description(); ?></p>
